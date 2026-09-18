@@ -1,21 +1,28 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Menu</title>
-	<!-- 1. Menambahkan Favicon (Ikon di Tab Browser) -->
-	<link rel-"icon" type="image/png" href-"gambar/favicon-32x32.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="gambar/favicon-32x32.png">
 </head>
 
-<h1>DATA DIRI</H1>
+<body>
+
+<h1>DATA DIRI</h1>
+
+<form action="submit.html">
+
 <fieldset id="gender">
-<form action="terima.html">
+
 <label for="nama">Nama</label>
 <input type="text" id="nama" name="patricia"><br>
 
-<label for="nama panggilan">Nama Panggilan</label>
-<input type="text" id="nama panggilan" name="panggilan"><br>
+<label for="nama_panggilan">Nama Panggilan</label>
+<input type="text" id="nama_panggilan" name="panggilan"><br>
 
 <label for="ultah">Tanggal Lahir</label>
 <input type="date" id="ultah" name="ultah"><br>
@@ -30,25 +37,39 @@
 <input type="email" id="surel" name="surel"><br>
 
 <label for="telp">Nomer HP</label>
-<input type="telp" id="telp" name="no hp"><br>
+<input type="tel" id="telp" name="no_hp"><br>
+
 </fieldset>
 
 <br><br>
+
 <label for="gender">Jenis Kelamin</label>
+
 <fieldset id="gender">
-	<input type="radio"name="gender" value="L">Cowok</radio><br>
-	<input type="radio"name="gender" value="P">Cewek</radio><br>
-	<input type="radio"name="gender" value="X" checked>Rahasia</radio><br>
+
+<input type="radio" name="gender" value="L">Cowok<br>
+<input type="radio" name="gender" value="P">Cewek<br>
+<input type="radio" name="gender" value="X" checked>Rahasia<br>
+
 </fieldset>
 
 <label for="kemampuan">Kelebihan</label>
+
 <fieldset id="kemampuan">
-	<input type="checkbox" name="pakar" value="PS">Menggunakan Photoshop<br>
-	<input type="checkbox" name="pakar" value="PS">Menggunakan Illustrator<br>
-	<input type="checkbox" name="pakar" value="PS">Menggunakan Indesign<br>
+
+<input type="checkbox" name="pakar" value="PS">Menggunakan Photoshop<br>
+<input type="checkbox" name="pakar" value="AI">Menggunakan Illustrator<br>
+<input type="checkbox" name="pakar" value="ID">Menggunakan Indesign<br>
+
 </fieldset>
+
 <br><br>
 
 <input type="submit">
+
 </form>
-	
+
+</body>
+</html>
+```
+
